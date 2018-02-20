@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6321A32A203B61F400A0764F /* pbrt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6321A329203B61F400A0764F /* pbrt.cpp */; };
+		63A64ACD203C628800C4B357 /* libcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A02D00203C5DEF005935BF /* libcore.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6321A31D203B61E000A0764F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6321A31F203B61E000A0764F /* renderer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = renderer; sourceTree = BUILT_PRODUCTS_DIR; };
+		6321A329203B61F400A0764F /* pbrt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pbrt.cpp; path = "../../renderer/pbrt.cpp"; sourceTree = "<group>"; };
+		63A02CF4203C5DEF005935BF /* libarea.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libarea.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libarea.dylib"; sourceTree = "<group>"; };
+		63A02CF5203C5DEF005935BF /* libbestcandidate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbestcandidate.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libbestcandidate.dylib"; sourceTree = "<group>"; };
+		63A02CF6203C5DEF005935BF /* libbidirectional.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbidirectional.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libbidirectional.dylib"; sourceTree = "<group>"; };
+		63A02CF7203C5DEF005935BF /* libbilerp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbilerp.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libbilerp.dylib"; sourceTree = "<group>"; };
+		63A02CF8203C5DEF005935BF /* libbluepaint.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbluepaint.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libbluepaint.dylib"; sourceTree = "<group>"; };
+		63A02CF9203C5DEF005935BF /* libbox.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbox.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libbox.dylib"; sourceTree = "<group>"; };
+		63A02CFA203C5DEF005935BF /* libbrushedmetal.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbrushedmetal.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libbrushedmetal.dylib"; sourceTree = "<group>"; };
+		63A02CFB203C5DEF005935BF /* libcheckerboard.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcheckerboard.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libcheckerboard.dylib"; sourceTree = "<group>"; };
+		63A02CFC203C5DEF005935BF /* libclay.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libclay.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libclay.dylib"; sourceTree = "<group>"; };
+		63A02CFD203C5DEF005935BF /* libcone.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcone.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libcone.dylib"; sourceTree = "<group>"; };
+		63A02CFE203C5DEF005935BF /* libconstant.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libconstant.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libconstant.dylib"; sourceTree = "<group>"; };
+		63A02CFF203C5DEF005935BF /* libcontrast.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcontrast.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libcontrast.dylib"; sourceTree = "<group>"; };
+		63A02D00203C5DEF005935BF /* libcore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcore.a; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libcore.a"; sourceTree = "<group>"; };
+		63A02D01203C5DEF005935BF /* libcylinder.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcylinder.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libcylinder.dylib"; sourceTree = "<group>"; };
+		63A02D02203C5DEF005935BF /* libdebug.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libdebug.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libdebug.dylib"; sourceTree = "<group>"; };
+		63A02D03203C5DEF005935BF /* libdirectlighting.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libdirectlighting.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libdirectlighting.dylib"; sourceTree = "<group>"; };
+		63A02D04203C5DEF005935BF /* libdisk.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libdisk.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libdisk.dylib"; sourceTree = "<group>"; };
+		63A02D05203C5DEF005935BF /* libdistant.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libdistant.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libdistant.dylib"; sourceTree = "<group>"; };
+		63A02D06203C5DEF005935BF /* libdots.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libdots.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libdots.dylib"; sourceTree = "<group>"; };
+		63A02D07203C5DEF005935BF /* libemission.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libemission.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libemission.dylib"; sourceTree = "<group>"; };
+		63A02D08203C5DEF005935BF /* libenvironment.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libenvironment.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libenvironment.dylib"; sourceTree = "<group>"; };
+		63A02D09203C5DEF005935BF /* libexphotonmap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libexphotonmap.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libexphotonmap.dylib"; sourceTree = "<group>"; };
+		63A02D0A203C5DEF005935BF /* libexponential.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libexponential.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libexponential.dylib"; sourceTree = "<group>"; };
+		63A02D0B203C5DEF005935BF /* libfbm.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfbm.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libfbm.dylib"; sourceTree = "<group>"; };
+		63A02D0C203C5DEF005935BF /* libfelt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfelt.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libfelt.dylib"; sourceTree = "<group>"; };
+		63A02D0D203C5DEF005935BF /* libgaussian.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgaussian.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libgaussian.dylib"; sourceTree = "<group>"; };
+		63A02D0E203C5DEF005935BF /* libglass.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglass.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libglass.dylib"; sourceTree = "<group>"; };
+		63A02D0F203C5DEF005935BF /* libgoniometric.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgoniometric.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libgoniometric.dylib"; sourceTree = "<group>"; };
+		63A02D10203C5DEF005935BF /* libgrid.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgrid.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libgrid.dylib"; sourceTree = "<group>"; };
+		63A02D11203C5DEF005935BF /* libheightfield.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libheightfield.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libheightfield.dylib"; sourceTree = "<group>"; };
+		63A02D12203C5DEF005935BF /* libhighcontrast.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libhighcontrast.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libhighcontrast.dylib"; sourceTree = "<group>"; };
+		63A02D13203C5DEF005935BF /* libhomogeneous.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libhomogeneous.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libhomogeneous.dylib"; sourceTree = "<group>"; };
+		63A02D14203C5DEF005935BF /* libhyperboloid.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libhyperboloid.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libhyperboloid.dylib"; sourceTree = "<group>"; };
+		63A02D15203C5DEF005935BF /* libigi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libigi.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libigi.dylib"; sourceTree = "<group>"; };
+		63A02D16203C5DEF005935BF /* libimage.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libimage.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libimage.dylib"; sourceTree = "<group>"; };
+		63A02D17203C5DEF005935BF /* libimagemap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libimagemap.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libimagemap.dylib"; sourceTree = "<group>"; };
+		63A02D18203C5DEF005935BF /* libinfinite.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libinfinite.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libinfinite.dylib"; sourceTree = "<group>"; };
+		63A02D19203C5DEF005935BF /* libinfinitesample.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libinfinitesample.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libinfinitesample.dylib"; sourceTree = "<group>"; };
+		63A02D1A203C5DEF005935BF /* libirradiancecache.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libirradiancecache.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libirradiancecache.dylib"; sourceTree = "<group>"; };
+		63A02D1B203C5DEF005935BF /* libkdtree.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libkdtree.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libkdtree.dylib"; sourceTree = "<group>"; };
+		63A02D1C203C5DEF005935BF /* libloopsubdiv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libloopsubdiv.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libloopsubdiv.dylib"; sourceTree = "<group>"; };
+		63A02D1D203C5DEF005935BF /* liblowdiscrepancy.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblowdiscrepancy.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/liblowdiscrepancy.dylib"; sourceTree = "<group>"; };
+		63A02D1E203C5DEF005935BF /* libmarble.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmarble.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libmarble.dylib"; sourceTree = "<group>"; };
+		63A02D1F203C5DEF005935BF /* libmatte.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmatte.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libmatte.dylib"; sourceTree = "<group>"; };
+		63A02D20203C5DEF005935BF /* libmaxwhite.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmaxwhite.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libmaxwhite.dylib"; sourceTree = "<group>"; };
+		63A02D21203C5DEF005935BF /* libmirror.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmirror.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libmirror.dylib"; sourceTree = "<group>"; };
+		63A02D22203C5DEF005935BF /* libmitchell.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmitchell.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libmitchell.dylib"; sourceTree = "<group>"; };
+		63A02D23203C5DEF005935BF /* libmix.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmix.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libmix.dylib"; sourceTree = "<group>"; };
+		63A02D24203C5DEF005935BF /* libnonlinear.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libnonlinear.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libnonlinear.dylib"; sourceTree = "<group>"; };
+		63A02D25203C5DEF005935BF /* libnurbs.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libnurbs.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libnurbs.dylib"; sourceTree = "<group>"; };
+		63A02D26203C5DEF005935BF /* liborthographic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liborthographic.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/liborthographic.dylib"; sourceTree = "<group>"; };
+		63A02D27203C5DEF005935BF /* libparaboloid.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libparaboloid.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libparaboloid.dylib"; sourceTree = "<group>"; };
+		63A02D28203C5DEF005935BF /* libpath.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpath.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libpath.dylib"; sourceTree = "<group>"; };
+		63A02D29203C5DEF005935BF /* libperspective.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libperspective.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libperspective.dylib"; sourceTree = "<group>"; };
+		63A02D2A203C5DEF005935BF /* libphotonmap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libphotonmap.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libphotonmap.dylib"; sourceTree = "<group>"; };
+		63A02D2B203C5DEF005935BF /* libplastic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libplastic.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libplastic.dylib"; sourceTree = "<group>"; };
+		63A02D2C203C5DEF005935BF /* libpoint.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpoint.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libpoint.dylib"; sourceTree = "<group>"; };
+		63A02D2D203C5DEF005935BF /* libprimer.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libprimer.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libprimer.dylib"; sourceTree = "<group>"; };
+		63A02D2E203C5DEF005935BF /* libprojection.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libprojection.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libprojection.dylib"; sourceTree = "<group>"; };
+		63A02D2F203C5DEF005935BF /* librandom.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = librandom.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/librandom.dylib"; sourceTree = "<group>"; };
+		63A02D30203C5DEF005935BF /* libscale.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libscale.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libscale.dylib"; sourceTree = "<group>"; };
+		63A02D31203C5DEF005935BF /* libshinymetal.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libshinymetal.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libshinymetal.dylib"; sourceTree = "<group>"; };
+		63A02D32203C5DEF005935BF /* libsinc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsinc.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libsinc.dylib"; sourceTree = "<group>"; };
+		63A02D33203C5DEF005935BF /* libsingle.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsingle.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libsingle.dylib"; sourceTree = "<group>"; };
+		63A02D34203C5DEF005935BF /* libskin.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libskin.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libskin.dylib"; sourceTree = "<group>"; };
+		63A02D35203C5DEF005935BF /* libsphere.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsphere.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libsphere.dylib"; sourceTree = "<group>"; };
+		63A02D36203C5DEF005935BF /* libspot.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libspot.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libspot.dylib"; sourceTree = "<group>"; };
+		63A02D37203C5DEF005935BF /* libstratified.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libstratified.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libstratified.dylib"; sourceTree = "<group>"; };
+		63A02D38203C5DEF005935BF /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libsubstrate.dylib"; sourceTree = "<group>"; };
+		63A02D39203C5DEF005935BF /* libtranslucent.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtranslucent.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libtranslucent.dylib"; sourceTree = "<group>"; };
+		63A02D3A203C5DEF005935BF /* libtriangle.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtriangle.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libtriangle.dylib"; sourceTree = "<group>"; };
+		63A02D3B203C5DEF005935BF /* libtrianglemesh.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtrianglemesh.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libtrianglemesh.dylib"; sourceTree = "<group>"; };
+		63A02D3C203C5DEF005935BF /* libuber.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libuber.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libuber.dylib"; sourceTree = "<group>"; };
+		63A02D3D203C5DEF005935BF /* libuv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libuv.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libuv.dylib"; sourceTree = "<group>"; };
+		63A02D3E203C5DEF005935BF /* libvolumegrid.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvolumegrid.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libvolumegrid.dylib"; sourceTree = "<group>"; };
+		63A02D3F203C5DEF005935BF /* libwhitted.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libwhitted.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libwhitted.dylib"; sourceTree = "<group>"; };
+		63A02D40203C5DEF005935BF /* libwindy.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libwindy.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libwindy.dylib"; sourceTree = "<group>"; };
+		63A02D41203C5DEF005935BF /* libwrinkled.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libwrinkled.dylib; path = "../../../Library/Developer/Xcode/DerivedData/PBRTCmdLineSolution-cnskxdwlydhjofgzzudpqqdhjnkv/Build/Products/Debug/libwrinkled.dylib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6321A31C203B61E000A0764F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A64ACD203C628800C4B357 /* libcore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6321A316203B61E000A0764F = {
+			isa = PBXGroup;
+			children = (
+				6321A329203B61F400A0764F /* pbrt.cpp */,
+				6321A320203B61E000A0764F /* Products */,
+				63A02CF3203C5DEF005935BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6321A320203B61E000A0764F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6321A31F203B61E000A0764F /* renderer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63A02CF3203C5DEF005935BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63A02CF4203C5DEF005935BF /* libarea.dylib */,
+				63A02CF5203C5DEF005935BF /* libbestcandidate.dylib */,
+				63A02CF6203C5DEF005935BF /* libbidirectional.dylib */,
+				63A02CF7203C5DEF005935BF /* libbilerp.dylib */,
+				63A02CF8203C5DEF005935BF /* libbluepaint.dylib */,
+				63A02CF9203C5DEF005935BF /* libbox.dylib */,
+				63A02CFA203C5DEF005935BF /* libbrushedmetal.dylib */,
+				63A02CFB203C5DEF005935BF /* libcheckerboard.dylib */,
+				63A02CFC203C5DEF005935BF /* libclay.dylib */,
+				63A02CFD203C5DEF005935BF /* libcone.dylib */,
+				63A02CFE203C5DEF005935BF /* libconstant.dylib */,
+				63A02CFF203C5DEF005935BF /* libcontrast.dylib */,
+				63A02D00203C5DEF005935BF /* libcore.a */,
+				63A02D01203C5DEF005935BF /* libcylinder.dylib */,
+				63A02D02203C5DEF005935BF /* libdebug.dylib */,
+				63A02D03203C5DEF005935BF /* libdirectlighting.dylib */,
+				63A02D04203C5DEF005935BF /* libdisk.dylib */,
+				63A02D05203C5DEF005935BF /* libdistant.dylib */,
+				63A02D06203C5DEF005935BF /* libdots.dylib */,
+				63A02D07203C5DEF005935BF /* libemission.dylib */,
+				63A02D08203C5DEF005935BF /* libenvironment.dylib */,
+				63A02D09203C5DEF005935BF /* libexphotonmap.dylib */,
+				63A02D0A203C5DEF005935BF /* libexponential.dylib */,
+				63A02D0B203C5DEF005935BF /* libfbm.dylib */,
+				63A02D0C203C5DEF005935BF /* libfelt.dylib */,
+				63A02D0D203C5DEF005935BF /* libgaussian.dylib */,
+				63A02D0E203C5DEF005935BF /* libglass.dylib */,
+				63A02D0F203C5DEF005935BF /* libgoniometric.dylib */,
+				63A02D10203C5DEF005935BF /* libgrid.dylib */,
+				63A02D11203C5DEF005935BF /* libheightfield.dylib */,
+				63A02D12203C5DEF005935BF /* libhighcontrast.dylib */,
+				63A02D13203C5DEF005935BF /* libhomogeneous.dylib */,
+				63A02D14203C5DEF005935BF /* libhyperboloid.dylib */,
+				63A02D15203C5DEF005935BF /* libigi.dylib */,
+				63A02D16203C5DEF005935BF /* libimage.dylib */,
+				63A02D17203C5DEF005935BF /* libimagemap.dylib */,
+				63A02D18203C5DEF005935BF /* libinfinite.dylib */,
+				63A02D19203C5DEF005935BF /* libinfinitesample.dylib */,
+				63A02D1A203C5DEF005935BF /* libirradiancecache.dylib */,
+				63A02D1B203C5DEF005935BF /* libkdtree.dylib */,
+				63A02D1C203C5DEF005935BF /* libloopsubdiv.dylib */,
+				63A02D1D203C5DEF005935BF /* liblowdiscrepancy.dylib */,
+				63A02D1E203C5DEF005935BF /* libmarble.dylib */,
+				63A02D1F203C5DEF005935BF /* libmatte.dylib */,
+				63A02D20203C5DEF005935BF /* libmaxwhite.dylib */,
+				63A02D21203C5DEF005935BF /* libmirror.dylib */,
+				63A02D22203C5DEF005935BF /* libmitchell.dylib */,
+				63A02D23203C5DEF005935BF /* libmix.dylib */,
+				63A02D24203C5DEF005935BF /* libnonlinear.dylib */,
+				63A02D25203C5DEF005935BF /* libnurbs.dylib */,
+				63A02D26203C5DEF005935BF /* liborthographic.dylib */,
+				63A02D27203C5DEF005935BF /* libparaboloid.dylib */,
+				63A02D28203C5DEF005935BF /* libpath.dylib */,
+				63A02D29203C5DEF005935BF /* libperspective.dylib */,
+				63A02D2A203C5DEF005935BF /* libphotonmap.dylib */,
+				63A02D2B203C5DEF005935BF /* libplastic.dylib */,
+				63A02D2C203C5DEF005935BF /* libpoint.dylib */,
+				63A02D2D203C5DEF005935BF /* libprimer.dylib */,
+				63A02D2E203C5DEF005935BF /* libprojection.dylib */,
+				63A02D2F203C5DEF005935BF /* librandom.dylib */,
+				63A02D30203C5DEF005935BF /* libscale.dylib */,
+				63A02D31203C5DEF005935BF /* libshinymetal.dylib */,
+				63A02D32203C5DEF005935BF /* libsinc.dylib */,
+				63A02D33203C5DEF005935BF /* libsingle.dylib */,
+				63A02D34203C5DEF005935BF /* libskin.dylib */,
+				63A02D35203C5DEF005935BF /* libsphere.dylib */,
+				63A02D36203C5DEF005935BF /* libspot.dylib */,
+				63A02D37203C5DEF005935BF /* libstratified.dylib */,
+				63A02D38203C5DEF005935BF /* libsubstrate.dylib */,
+				63A02D39203C5DEF005935BF /* libtranslucent.dylib */,
+				63A02D3A203C5DEF005935BF /* libtriangle.dylib */,
+				63A02D3B203C5DEF005935BF /* libtrianglemesh.dylib */,
+				63A02D3C203C5DEF005935BF /* libuber.dylib */,
+				63A02D3D203C5DEF005935BF /* libuv.dylib */,
+				63A02D3E203C5DEF005935BF /* libvolumegrid.dylib */,
+				63A02D3F203C5DEF005935BF /* libwhitted.dylib */,
+				63A02D40203C5DEF005935BF /* libwindy.dylib */,
+				63A02D41203C5DEF005935BF /* libwrinkled.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6321A31E203B61E000A0764F /* renderer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6321A326203B61E000A0764F /* Build configuration list for PBXNativeTarget "renderer" */;
+			buildPhases = (
+				6321A31B203B61E000A0764F /* Sources */,
+				6321A31C203B61E000A0764F /* Frameworks */,
+				6321A31D203B61E000A0764F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = renderer;
+			productName = renderer;
+			productReference = 6321A31F203B61E000A0764F /* renderer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6321A317203B61E000A0764F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Riccardo Gigante";
+				TargetAttributes = {
+					6321A31E203B61E000A0764F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6321A31A203B61E000A0764F /* Build configuration list for PBXProject "renderer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6321A316203B61E000A0764F;
+			productRefGroup = 6321A320203B61E000A0764F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6321A31E203B61E000A0764F /* renderer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6321A31B203B61E000A0764F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6321A32A203B61F400A0764F /* pbrt.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6321A324203B61E000A0764F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../../core";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6321A325203B61E000A0764F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../../core";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6321A327203B61E000A0764F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6321A328203B61E000A0764F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6321A31A203B61E000A0764F /* Build configuration list for PBXProject "renderer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6321A324203B61E000A0764F /* Debug */,
+				6321A325203B61E000A0764F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6321A326203B61E000A0764F /* Build configuration list for PBXNativeTarget "renderer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6321A327203B61E000A0764F /* Debug */,
+				6321A328203B61E000A0764F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6321A317203B61E000A0764F /* Project object */;
+}

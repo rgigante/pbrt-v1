@@ -165,7 +165,7 @@ inline void LDShuffleScrambled1D(int nSamples,
 }
 inline void LDShuffleScrambled2D(int nSamples,
 		int nPixel, float *samples) {
-	u_int scramble[2] = { RandomUInt(), RandomUInt() };
+	u_int scramble[2] = { static_cast<u_int>(RandomUInt()), static_cast<u_int>(RandomUInt()) };
 	for (int i = 0; i < nSamples * nPixel; ++i)
 		Sample02(i, scramble, &samples[2*i]);
 	for (int i = 0; i < nPixel; ++i)

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B77560E68091517EF92DEF94382B50393593EFAE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B77560E68091517EF92DEF94382B50393593EFAE" : 9223372036854775807,
+    "89B38BBC2C1CC7D547EE2E2E5037908D045A86F2" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "515F2AE7-3591-45DE-8C34-63BA823FF0A5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B77560E68091517EF92DEF94382B50393593EFAE" : "PBRT_Xcode\/",
+    "89B38BBC2C1CC7D547EE2E2E5037908D045A86F2" : "pbrt-v1\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PBRT_Xcode",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PBRT_Xcode.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mmp\/pbrt-v1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "89B38BBC2C1CC7D547EE2E2E5037908D045A86F2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rgigante\/PBRTCmdLine.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B77560E68091517EF92DEF94382B50393593EFAE"
+    }
+  ]
+}

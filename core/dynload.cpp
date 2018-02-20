@@ -47,6 +47,8 @@ template <class D> D *GetPlugin(const string &name,
 	// Add platform-specific shared library filename suffix
 	#ifdef WIN32
 	filename += ".dll";
+	#elif __APPLE__
+	filename = "lib"+filename+".dylib";
 	#else
 	filename += ".so";
 	#endif

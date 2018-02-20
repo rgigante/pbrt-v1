@@ -219,7 +219,7 @@ Spectrum IrradianceCache::IndirectLo(const Point &p,
 	Spectrum E;
 	if (!InterpolateIrradiance(scene, p, n, &E)) {
 		// Compute irradiance at current point
-		u_int scramble[2] = { RandomUInt(), RandomUInt() };
+		u_int scramble[2] = { static_cast<u_int>(RandomUInt()), static_cast<u_int>(RandomUInt()) };
 		float sumInvDists = 0.;
 		for (int i = 0; i < nSamples; ++i) {
 			// Trace ray to sample radiance for irradiance estimate
